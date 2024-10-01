@@ -8,7 +8,7 @@ public abstract class Conta {
 	//criando os métodos abstratos
 	public abstract boolean sacar(double valor);
 	public abstract boolean depositar(double valor);
-	public abstract boolean transferir(double valor);
+	public abstract boolean transferir(double valor, Conta outra);
 	
 	
 	public int getnConta() {
